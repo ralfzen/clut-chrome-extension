@@ -10,22 +10,22 @@
     "tabs"
   ],
   "content_security_policy" : "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
-  "icons": { 
+  "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
-    "128": "icon128.png" 
+    "128": "icon128.png"
   },
   "background":{
     "scripts" : ["background.js"]
   },
   "commands": {
     "alt_switch_fast": {
-      "suggested_key": {  
-        "default": "Alt+W",
-        "mac": "Alt+W"
+      "suggested_key": {
+        "default": "Alt+Tab",
+        "mac": "Alt+Tab"
       },
       "description": "Quick switch - Use to switch quickly among last 2 to 4 tabs. (Suggested: Alt+W)"
-    },  
+    },
     "alt_switch_slow_backward": {
       "suggested_key": {
         "default": "Alt+S",
